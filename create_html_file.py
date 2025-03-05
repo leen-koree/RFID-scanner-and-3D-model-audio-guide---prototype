@@ -7,8 +7,8 @@ def create_html_file(language):
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>3D Model Viewer</title>
-      <link rel="stylesheet" href="pagescroll_v3.css" />
-      <script src="pagescroll_v3.js" defer></script> <!-- Link to the separate JS file -->
+      <link rel="stylesheet" href="pagescroll.css" />
+      <script src="pagescroll.js" defer></script> <!-- Link to the separate JS file -->
     </head>
 
     <body>
