@@ -3,10 +3,8 @@ import webbrowser
 import os
 import RPi.GPIO as GPIO
 from mfrc522 import SimpleMFRC522
-from create_html_file_v5 import create_html_file
+from create_html_file import create_html_file
 
-# Your Sketchfab API key
-api_key = "1a53843034804dfda647a3a20523b479"
 reader = SimpleMFRC522()
 tag_id_list = [534080257907,839939270962,632472152511,417427926619]
 
